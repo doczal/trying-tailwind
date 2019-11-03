@@ -1,12 +1,21 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import Header from './Header';
+import Posts from './Posts';
+import { navigation } from 'constants.js';
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <h1>Hello World</h1>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <Switch>
+        <Route exact path="/" component={Posts} />
+        {navigation.map((item) => (
+          <Route key={item.id} path={item.path} component={item.component} />
+        ))}
+      </Switch>
+    </Router>
   );
 }
 

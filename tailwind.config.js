@@ -15,6 +15,9 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
+      gradient: {
+        100: 'linear-gradient(45deg, #44337a, #667eea)',
+      },
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',
@@ -196,7 +199,10 @@ module.exports = {
       outline: '0 0 0 3px rgba(66, 153, 225, 0.5)',
       none: 'none',
     },
-    container: {},
+    container: {
+      padding: '1rem',
+      center: true,
+    },
     cursor: {
       auto: 'auto',
       default: 'default',

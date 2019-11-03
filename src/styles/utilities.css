@@ -1,0 +1,7 @@
+.trans {
+  transition: ease all 0.2s;
+}
+
+.trans-op {
+  transition-property: opacity;
+}
