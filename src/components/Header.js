@@ -4,9 +4,9 @@ import { navigation } from 'constants.js';
 
 function Header() {
   return (
-    <header className="bg-gray-100 shadow-md py-4 text-gray-900 mb-2">
+    <header className="bg-gray-100 shadow-md py-4 text-gray-900 mb-4 header">
       <div className="container flex justify-between items-center lg:px-5">
-        <h1 className="uppercase font-bold">App Thing</h1>
+        <h1 className="uppercase font-bold">App Thingy</h1>
         <nav>
           <ul className="flex">
             {navigation.map((item) => (

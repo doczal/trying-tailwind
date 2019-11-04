@@ -1,6 +1,10 @@
 @import 'tailwindcss/base';
 
+@import 'variables.css';
+
 @import 'tailwindcss/components';
+
+@import 'header.css';
 
 @import 'tailwindcss/utilities';
 

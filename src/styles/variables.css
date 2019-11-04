@@ -1,0 +1,7 @@
+:root {
+  --gradient-basic: linear-gradient(
+    45deg,
+    theme(colors.purple.700),
+    theme(colors.indigo.300)
+  );
+}

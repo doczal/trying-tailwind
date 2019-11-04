@@ -5,3 +5,9 @@
 .trans-op {
   transition-property: opacity;
 }
+
+.img-16by9::before {
+  content: '';
+  padding-top: 56.25%;
+  display: block;
+}
