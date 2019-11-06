@@ -1,6 +1,7 @@
 import Posts from 'components/Posts';
 import Users from 'components/Users';
 import Comments from 'components/Comments';
+import Form from 'components/Form';
 
 export const navigation = [
   {
@@ -20,5 +21,11 @@ export const navigation = [
     title: 'Comments',
     path: '/comments',
     component: Comments,
+  },
+  {
+    id: 4,
+    title: 'Form',
+    path: '/form',
+    component: Form,
   },
 ];
