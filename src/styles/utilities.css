@@ -6,8 +6,16 @@
   transition-property: opacity;
 }
 
+.trans-bg {
+  transition-property: background-color;
+}
+
 .img-16by9::before {
   content: '';
   padding-top: 56.25%;
   display: block;
+}
+
+.title {
+  @apply text-center text-2xl text-white uppercase font-bold mb-4 bg-purple-600;
 }

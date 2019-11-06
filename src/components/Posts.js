@@ -16,9 +16,7 @@ function Posts() {
   return (
     <>
       <main className="container">
-        <h1 className="text-center text-2xl text-white uppercase font-bold mb-4 bg-purple-600">
-          Posts
-        </h1>
+        <h1 className="title">Posts</h1>
         <div className="flex flex-wrap -mx-2">
           {hasLoaded &&
             posts.map((post, idx) => (
